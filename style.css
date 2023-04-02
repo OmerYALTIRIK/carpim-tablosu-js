@@ -1,0 +1,28 @@
+body {
+  font-family: "JetBrains Mono", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: teal;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 100px auto;
+  font-size: 16px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  overflow: hidden;
+  max-width: calc(100% - 2em);
+  background-color: #ffffffd6;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+th {
+  background-color: turquoise;
+  font-weight: 900;
+}
